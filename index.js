@@ -25,4 +25,4 @@ if (isNaN(num1) || isNaN(num2)) {
 const result = num1 * num2;
 
 // Print the result
-console.log(`${num1} + ${num2} = ${result}`);
+console.log(`${num1} * ${num2} = ${result}`);
