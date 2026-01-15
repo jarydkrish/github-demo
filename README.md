@@ -2,7 +2,7 @@
 
 > **Note:** This is a demo project for learning purposes.
 
-A simple Node.js console app that adds two numbers. This demo demonstrates basic command-line argument parsing and arithmetic operations in Node.js.
+A simple Node.js console app that multiplies two numbers. This demo demonstrates basic command-line argument parsing and arithmetic operations in Node.js.
 
 ## Usage
 
@@ -15,17 +15,17 @@ node index.js <number1> <number2>
 ### Examples
 
 ```bash
-# Add two positive integers
+# Multiply two positive integers
 node index.js 5 3
-# Output: 5 + 3 = 8
+# Output: 5 * 3 = 15
 
-# Add decimal numbers
-node index.js 10.5 2.5
-# Output: 10.5 + 2.5 = 13
+# Multiply decimal numbers
+node index.js 10.5 2
+# Output: 10.5 * 2 = 21
 
-# Add negative numbers
+# Multiply negative numbers
 node index.js -5 10
-# Output: -5 + 10 = 5
+# Output: -5 * 10 = 50
 ```
 
 ## Requirements
