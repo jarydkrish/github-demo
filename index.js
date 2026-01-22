@@ -21,8 +21,8 @@ if (isNaN(num1) || isNaN(num2)) {
   process.exit(1);
 }
 
-// Add the numbers
-const result = num1 + num2;
+// Multiply the numbers
+const result = num1 * num2;
 
 // Print the result
-console.log(`${num1} + ${num2} = ${result}`);
+console.log(`${num1} * ${num2} = ${result}`);
